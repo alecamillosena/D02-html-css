@@ -29,8 +29,42 @@ SELETOR {
   #header-pesquisa::placeholder {
     color: aqua;
   }
-  
+
 /* para o usuario nao poder alterar o tamanho da caixa de texto */ 
   textarea{
       resize: none;
+  }
+
+  .formulario-contato{
+      background-color: lightgrey;
+      /* para colocar borda em volta */
+      border-radius: 10px;
+      /* para colocar cor na borda */
+      box-shadow: 1px 1px 15px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .formulario-contato p, .formulario-contato h3 {
+      font-size: 18pt;
+  }
+
+  .negrito {
+      font-weight: bold;
+  }
+
+  .negrito:hover{
+      color: lawngreen;
+  }
+
+  img{
+      opacity: 0.5;
+  }
+
+  /* hover= só qdo o mouse está encima */
+  img:hover{
+      opacity: 1;
+  }
+
+  /* para o cursor virar uma maozinha qdo ta num link */ 
+  button{
+      cursor: pointer;
   }
